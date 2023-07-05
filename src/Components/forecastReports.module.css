@@ -1,0 +1,50 @@
+.forecastReports_mainDiv{
+    border: 1.5px solid rgb(29, 2, 54);
+    text-align: center;
+    border-radius: 10px;
+    padding: 1%;
+    backdrop-filter: blur(25px);
+    transform: skew(-7deg);
+    position: relative;
+    animation-name: ForecastReportDiv;
+    animation-duration: 4s;
+}
+
+@keyframes ForecastReportDiv{
+    50%  {left:-200px; top:-200px;}
+    100% {left:0px; top:0px;}
+}
+
+
+.ForecastReport_7days{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -1%;
+}
+
+@media only screen and (max-width : 768px){
+    .forecastReports_mainDiv{
+        transform:none;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .forecastReports_mainDiv{
+        margin: auto;
+        width: 60%;
+    }
+  }
+
+  @media only screen and (max-width : 480px){
+    .forecastReports_mainDiv{
+        margin: auto;
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width : 350px){
+    .forecastReports_mainDiv{
+        width: 95%;
+    }
+  }
+

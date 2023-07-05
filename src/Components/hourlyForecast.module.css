@@ -1,0 +1,9 @@
+.HourlyForecast_mainDiv{
+    font-size: 10px;
+    background-color: rgb(61, 40, 114, 0.6);
+    border-radius: 10px;
+}
+
+.HourlyForecast_mainDiv > img{
+    width: 70%;
+}

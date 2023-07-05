@@ -1,0 +1,28 @@
+.otherCity_mainDiv{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3%;
+    padding: 0% 2%;
+    background-color: rgb(61, 40, 114, 0.6);
+    border-radius: 10px;
+    text-align: start;
+}
+
+.otherCity_mainDiv :nth-child(2){
+    flex: 50%;
+    word-break: break-word;
+ }
+
+img{
+    width: 70%;
+    text-align: center;
+}
+
+div > p{
+    font-size: 10px;
+}
+
+h5{
+    margin-bottom: -3%;
+}
